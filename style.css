@@ -4,18 +4,19 @@ body {
 
 h3 {
     color: #303e5c;
-    /* font-family: "Candal"; */
     font-weight: 800;
     font-size: 1.2rem;
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
 p {
     font-size: 1rem;
     color: #92959a;
 }
+
 .main-item {
-    width: 23%;
+    width: 288px;
     margin: 100px auto;
 }
 
@@ -23,9 +24,19 @@ p {
     padding: 1%;
     border-radius: 15px;
 }
+
 .card-body {
     background-color: white;
     font-family: 'Mukta', sans-serif;
     text-align: center;
     line-height: 1;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width:700px) {
+    .main-item {
+        width: 67%;
+    }
 }
